@@ -35,7 +35,7 @@ public class MemberService {
             }
         }
 
-        System.out.println("Member not found");
+        System.out.println("No member not found");
     }
 
 
@@ -45,7 +45,7 @@ public class MemberService {
             System.out.println(member.getName() + ", "
                     + member.getId() + ", "
                     + member.getEmail() + ", "
-                    + " member retrieved successfully");
+                    + " member retrieve successfully");
 
         }
     }
